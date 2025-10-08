@@ -1,19 +1,50 @@
-a:hover {
-  color: blue;
-  cursor: pointer;
+.about-header {
+  font-size: 64px;
 }
+
+.about-job-title {
+  font-size: 25px;
+}
+
 .container-1 {
   background-color: #f5f1fe;
 }
 
+.about-page .navbar {
+  margin-bottom: 100px;
+}
+.about-section img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.custom-back-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #885df1;
+  color: white;
+  transition: box-shadow 0.2s ease;
+  display: inline-block;
+}
+
+.custom-back-btn:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.col-lg-6 .custom-back-btn {
+  margin-top: 2rem;
+}
+
+img {
+  border-radius: 20px;
+}
 @media (max-width: 700px) {
   h3 {
     text-align: center;
   }
   p {
-    text-align: center;
-  }
-  .button-container {
     text-align: center;
   }
 }
