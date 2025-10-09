@@ -1,3 +1,7 @@
+h4 {
+  font-size: 48px;
+}
+
 a {
   color: #212529;
   font-size: 25px;
@@ -50,6 +54,7 @@ footer .social-links a:hover {
   color: white;
   background-color: #885df1;
 }
+
 .about-header {
   font-size: 64px;
 }
@@ -78,6 +83,7 @@ footer .social-links a:hover {
   color: white;
   transition: box-shadow 0.2s ease;
   display: inline-block;
+  text-decoration: none;
 }
 
 .custom-back-btn:hover {
