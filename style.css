@@ -15,10 +15,8 @@ nav ul {
   margin: 0;
 }
 nav li {
-  display: inline;
   list-style: none;
   line-height: 45px;
-  margin-left: 15px;
 }
 
 nav a {
@@ -104,5 +102,17 @@ img {
   }
   p {
     text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  nav li {
+    display: inline;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 991px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
   }
 }
